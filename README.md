@@ -1,2 +1,11 @@
-This is my first GitHub project.
-I am learning how to use GitHub step by step.
+buttonStart.setOnClickListener {
+    statusText.text = "System ON 🚀 Motors activated"
+}
+
+buttonStop.setOnClickListener {
+    statusText.text = "System OFF 🛑 Motors stopped"
+}
+
+buttonStatus.setOnClickListener {
+    statusText.text = "System is stable ✔ Ready"
+}
